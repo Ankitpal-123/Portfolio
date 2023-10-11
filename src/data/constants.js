@@ -212,7 +212,7 @@ export const projects = [
     tags: ["React Js", "Firebase", "Tailwind CSS"],
     category: "web app code review",
     github: "https://github.com/Ankitpal-123/codereview",
-    webapp: "https://vexa-app.netlify.app/",
+    webapp: "https://your-code-review.vercel.app/",
   },
   {
     id: 2,
