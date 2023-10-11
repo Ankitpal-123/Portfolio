@@ -87,7 +87,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Rishav Chanda</Logo>
+        <Logo>Ankit Pal</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -107,7 +107,7 @@ function Footer() {
             <InstagramIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2023 Rishav Chanda. All rights reserved.</Copyright>
+        <Copyright>&copy; 2023 Ankit Pal. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
