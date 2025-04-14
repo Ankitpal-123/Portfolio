@@ -1,9 +1,9 @@
-import SideCup from "../images/SideCup.png";
 import Ecommerce from "../images/Ecommerce.png";
 import Codereview from "../images/Codereview.png";
-import Logixgo from "../images/Logixgo.png";
-import Constuctuon from "../images/Constuctuon.png";
 import Amtex from "../images/Amtex.png";
+import Aahar from "../images/Aahar.png";
+import Movie from "../images/Movie.png";
+import SmartCarbs from "../images/Smartcarbs.jpg";
 
 export const Bio = {
   name: "Ankit Pal",
@@ -11,8 +11,7 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning, I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things",
   github: "https://github.com/Ankitpal-123",
-  resume:
-    "https://drive.google.com/file/d/1r_jBC_pNaGQrCq-EGG2X60VKU0AuhH68/view",
+  resume: "",
   linkedin: "https://www.linkedin.com/in/ankit-pal-b12199224/",
 
   insta: "https://www.instagram.com/ankit_pal_133/",
@@ -25,15 +24,8 @@ export const skills = [
     skills: [
       {
         name: "React Js",
-        image:
-          "https://shethink.in/wp-content/uploads/2021/07/react.js-img.pngK",
+        image: "https://opensource.fb.com/img/projects/react.jpg",
       },
-      {
-        name: "Redux",
-        image:
-          "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
-      },
-
       {
         name: "HTML",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
@@ -57,16 +49,21 @@ export const skills = [
         name: "Material UI",
         image: "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg",
       },
+      {
+        name: "React Native",
+        image:
+          "https://devtop.io/wp-content/uploads/2022/10/react-native-1.png",
+      },
+      {
+        name: "Tailwind CSS",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1280px-Tailwind_CSS_Logo.svg.png",
+      },
     ],
   },
   {
     title: "Backend",
     skills: [
-      {
-        name: "MySQL",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-      },
       {
         name: "MongoDB",
         image:
@@ -93,20 +90,10 @@ export const skills = [
         image:
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
-
-      {
-        name: "Netlify",
-        image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
-      },
       {
         name: "VS Code",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-      },
-      {
-        name: "Postman",
-        image: "https://cdn.worldvectorlogo.com/logos/postman.svg",
       },
     ],
   },
@@ -115,57 +102,27 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://nebula.wsimg.com/obj/RjE0MTAzNDhCNkMzQ0Y1MzE2ODc6OTE1NjYwNTk1ZjA2YmY2NmZkYTY5OWRhZjJjYTJiN2Y6Ojo6OjA=",
-    role: "Front-End Developer Intern",
-    company: "YoShop.com",
-    date: "Aug 2022 - Novmber 2022",
-    desc: "I have successfully implemented HTML, CSS, and JavaScript in various projects, showcasing my proficiency in frontend development. These experiences have honed my skills and equipped me with the expertise needed to deliver effective and engaging web solutions.",
-    // skills: ["HTML", "CSS", "REACT.js"],
-  },
-  {
-    id: 1,
-    img: "https://zenprospect-production.s3.amazonaws.com/uploads/pictures/657ff8c0dca6aa0001e5f13e/picture",
-    role: "Web Developer Intern",
-    company: "RP INFOCARE",
-    date: "March 2023 - Jully 2023",
-    desc: "Internship provided industry insights as I implemented HTML, CSS, JavaScript, and React. Gained practical frontend skills and deepened understanding of industry standards, poised for further growth",
-    // skills: ["ReactJS", "PHP", "Material UI", "HTML", "CSS", "JavaScript"],
-  },
-  {
-    id: 2,
-    img: "https://www.rdsgn.in/images/logo.png",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5doTilQCE0FmvPY0FevcAW5S_AZgV8W95mw&s",
     role: "Web Developer",
     company: "REDESIGN DIGITAL",
     date: "September 2023 - November 2023",
     desc: "Skilled in HTML, CSS, and JavaScript, I specialize in Redesign digital experiences. With a focus on creativity and user-centric design, I collaborate closely with teams to deliver seamless and optimized solutions that exceed expectations.",
-    // skills: [
-    //   "ReactJS",
-    //   "Redux",
-    //   "PHP",
-    //   "Material UI",
-    //   "HTML",
-    //   "CSS",
-    //   "JavaScript",
-    //   "JQuery",
-    // ],
   },
   {
-    id: 3,
-    img: "https://photos.fliarbi.com/695de9dfa83e3ee-logo.png",
+    id: 1,
+    img: "https://media.licdn.com/dms/image/v2/C5603AQEYsc9aXfeMnw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517271169332?e=2147483647&v=beta&t=VE7T3WVxeCRPREeAA1SnUvsbxXPlSp-lvuOQ78-2g3o",
     role: "Frontend React developer",
     company: "Techizer Tech Solution",
-    date: "March 2024 - Present",
+    date: "March 2024 - May 2024",
     desc: "As a React Frontend Developer, I craft engaging user interfaces using HTML, CSS, and JavaScript. I collaborate with teams to optimize performance and ensure exceptional usability, driven by a passion for delivering intuitive solutions and innovation in web development.",
-    // skills: [
-    //   "ReactJS",
-    //   "Redux",
-    //   "PHP",
-    //   "Material UI",
-    //   "HTML",
-    //   "CSS",
-    //   "JavaScript",
-    //   "",
-    // ],
+  },
+  {
+    id: 2,
+    img: "https://www.quesscorp.com/wp-content/uploads/2022/11/quessbluesvg.svg",
+    role: "Web Devloper Associate",
+    company: "Quess Corp Ltd",
+    date: "June 2024 - Present",
+    desc: "As a Web Developer Associate, I create responsive and engaging web experiences focused on usability and performance. I collaborate with teams to translate ideas into intuitive digital solutions, ensuring each project meets both user needs and business goals. With a passion for clean design and continuous improvement, I strive to deliver high-quality, impactful web experiences.",
   },
 ];
 
@@ -184,19 +141,6 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Side-cup Golf",
-    date: "Jun 2023 - Jun 2023",
-    description:
-      "I have created an animated website detailing Family Golf Playing.  I've built an engaging website with HTML, CSS, JavaScript, and GSAP animation, offering a dynamic exploration of family golf activities. Through smooth transitions and captivating visuals, users are invited to discover key details and attractions suitable for golf enthusiasts of all ages",
-    image: SideCup,
-    tags: ["HTML", "CSS", "JAVASCRIPT", "GSAP"],
-    category: "web app",
-    github:
-      "https://github.com/Ankitpal-123/htmlcssjs/tree/main/Animation_projects_01",
-    webapp: "https://sparkly-bubblegum-b50b32.netlify.app/",
-  },
-  {
-    id: 1,
     title: "E-commerce",
     date: "Apr 2023 - Apr 2023",
     description:
@@ -208,7 +152,7 @@ export const projects = [
     webapp: "https://wondrous-lolly-07d973.netlify.app/",
   },
   {
-    id: 2,
+    id: 1,
     title: "Code Review",
     date: "sept 2023 - sept 2023",
     description:
@@ -219,32 +163,9 @@ export const projects = [
     github: "https://github.com/Ankitpal-123/codereview",
     webapp: "https://your-code-review.vercel.app/",
   },
+
   {
-    id: 3,
-    title: "Logixgo",
-    date: "Jan 2023 - Mar 2023",
-    description:
-      "It's a service-oriented website providing a diverse range of services encompassing IT solutions, web development, digital marketing, and social media marketing.",
-    image: Logixgo,
-    tags: ["HTML", "CSS", "Javascript", "PHP"],
-    category: "Web",
-    github: "https://github.com/Ankitpal-123/logixgo.cloud",
-    webapp: "https://logixgo.cloud/index.html",
-  },
-  {
-    id: 4,
-    title: "construction",
-    date: "Oct 2023 - Oct 2023",
-    description:
-      "It's a dynamic service-centric website specializing in construction services, offering an extensive array of solutions including IT infrastructure, custom web development, digital marketing strategies, and social media management. Crafted with HTML, CSS, JavaScript, and Bootstrap, our site ensures seamless user experiences and visually compelling interfaces.",
-    image: Constuctuon,
-    tags: ["HTML", "CSS", "Javascript"],
-    category: "Web",
-    github: "https://github.com/Ankitpal-123/Rabs_assess",
-    webapp: "https://polite-youtiao-711954.netlify.app/",
-  },
-  {
-    id: 5,
+    id: 2,
     title: "Amtexent Enterprises ",
     date: "Oct 2023 - Oct 2023",
     description:
@@ -254,6 +175,37 @@ export const projects = [
     category: "Web",
 
     webapp: "https://amtexenterprises.net/",
+  },
+  {
+    id: 3,
+    title: "Aahar Home Made Food ",
+    date: "Nov 2022 - March 2023",
+    description:
+      "I led the development of a Homemade Food Selling and Delivery Platform designed to empower housewives. I guided the project from concept to completion, translating ideas and mockups into a fully functional and user-friendly website that supports both sellers and customers.",
+    image: Aahar,
+    tags: ["React Native", "AWS Amplify", "Firebase", "Tailwind CSS"],
+    category: "App",
+    github: "https://github.com/Ankitpal-123/AaharEatsREstaurant",
+  },
+  {
+    id: 4,
+    title: "Movie-App",
+    date: "April 2025 - Present",
+    description:
+      "Amtex Enterprises, built with HTML, CSS, JS, and Bootstrap. It is a premier supplier of SS Gold Pipes in India. Our website features an extensive inventory, including Gold Pipes, Rose Gold Pipes, and other premium products, all securely stored in our spacious repository.",
+    image: Movie,
+    tags: ["React Native", "Typescript", "Tailwind CSS"],
+    category: "App",
+  },
+  {
+    id: 4,
+    title: "Smart Carbs",
+    date: "April 2025 - Present",
+    description:
+      "SMART CARBS is a thoughtfully designed platform that transforms everyday recipes into healthier, low-glycemic alternatives—without compromising on flavor. Developed with a focus on supporting patients' health and well-being, this smart app empowers users to track their dietary habits, make informed food choices, and maintain a balanced lifestyle. It's more than just a recipe tool—it's a companion on the journey to better health.",
+    image: SmartCarbs,
+    tags: ["React Native", "PHP", "Tailwind CSS"],
+    category: "App",
   },
 ];
 
